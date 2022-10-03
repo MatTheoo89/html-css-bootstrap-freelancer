@@ -1,0 +1,26 @@
+/********************  HEADER  ********************/
+header {
+  min-height: 100px;
+  background-color: aquamarine;
+}
+
+
+/********************  NAVBAR  ********************/
+
+
+/********************  JUMBOTRON  ********************/
+
+.jumbotron {
+  min-height: 500px;
+  background-color: blue;
+}
+
+
+/********************  MAIN  ********************/
+
+
+/********************  FOOTER  ********************/
+footer {
+  min-height: 100px;
+  background-color: violet;
+}

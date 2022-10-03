@@ -1,0 +1,120 @@
+/******************************  RESET GENERALI  ******************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+img {
+  max-width: 100%;
+  /*img sempre al 100%*/
+}
+
+ol,
+ul {
+  list-style: none;
+  /*toglie il pallino a TUTTE le liste*/
+}
+
+a {
+  text-decoration: none;
+  /*toglie il sottolineato a TUTTI i link*/
+}
+
+
+/******************************  UTILITY  ******************************/
+
+/**********  DEBUG  **********/
+
+.debug-1 {
+  background-color: rgba(255, 0, 0, .25);
+  border: 1px solid red;
+}
+
+.debug-2 {
+  background-color: rgba(0, 255, 0, .25);
+  border: 1px solid greenyellow;
+}
+
+.debug-3 {
+  background-color: rgba(0, 0, 255, .25);
+  border: 1px solid aqua;
+}
+
+
+
+/**********  FLEX  **********/
+
+.d-flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+
+/******************************  COMPONENTS  ******************************/
+
+/**********  CONTAINER  **********/
+
+.my-container-100 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.my-container-95 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.my-container-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.my-container-85 {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.my-container-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+/**********  BUTTON  **********/
+
+.btn {
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
