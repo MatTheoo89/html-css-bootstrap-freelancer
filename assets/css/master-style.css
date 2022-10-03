@@ -1,7 +1,54 @@
+/*
+! DA CANCELLARE TUTTO 
+*/
+
+.t-center {
+  text-align: center;
+}
+
+.container-md {
+  min-height: 300px;
+}
+
+
+.color1 {
+  background-color: #BA4B63;
+}
+
+.color2 {
+  background-color: #1EA4B6;
+}
+
+.color3 {
+  background-color: #140F0F;
+}
+
+.color4 {
+  background-color: #1C83C1;
+}
+
+.color5 {
+  background-color: #0E38B5;
+}
+
+.color6 {
+  background-color: #CCB2A3;
+}
+
+.my-container-100 {
+  color: #fff;
+  background-color: #1ABC9C;
+}
+
+/*
+! /DA CANCELLARE TUTTO 
+*/
+
 /********************  HEADER  ********************/
 header {
-  min-height: 100px;
-  background-color: aquamarine;
+  color: #fff;
+  min-height: 45px;
+  background-color: #2C3E50;
 }
 
 
@@ -9,18 +56,40 @@ header {
 
 
 /********************  JUMBOTRON  ********************/
-
 .jumbotron {
-  min-height: 500px;
-  background-color: blue;
+  min-height: 210px;
+  background-color: #1ABC9C;
 }
 
 
 /********************  MAIN  ********************/
 
+main .container-md .row .test {
+  min-height: 150px;
+}
+
+main .container-fluid .row.test {
+  min-height: 150px;
+}
+
+[class^=col-] {
+  min-height: 200px;
+}
+
+main .container .row .col {
+  min-height: 150px;
+}
+
+main .container .row .col .box-contatti {
+  width: 100%;
+  min-height: 150px;
+  color: aliceblue;
+}
+
 
 /********************  FOOTER  ********************/
 footer {
-  min-height: 100px;
-  background-color: violet;
+  color: #fff;
+  min-height: 40px;
+  background-color: #2C3E50;
 }
