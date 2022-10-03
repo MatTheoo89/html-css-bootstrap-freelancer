@@ -45,7 +45,6 @@ a {
 }
 
 
-
 /**********  FLEX  **********/
 
 .d-flex {
@@ -106,6 +105,9 @@ a {
   margin: 0 auto;
 }
 
+.m-bottom {
+  margin-bottom: 35px;
+}
 
 
 /**********  BUTTON  **********/
