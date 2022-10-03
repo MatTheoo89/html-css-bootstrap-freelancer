@@ -40,6 +40,11 @@
   background-color: #1ABC9C;
 }
 
+.container-fluid.color {
+  min-height: 80px;
+  background-color: #3A546D;
+}
+
 /*
 ! /DA CANCELLARE TUTTO 
 */
@@ -73,7 +78,7 @@ main .container-fluid .row.test {
 }
 
 [class^=col-] {
-  min-height: 200px;
+  min-height: 250px;
 }
 
 main .container .row .col {
@@ -83,7 +88,7 @@ main .container .row .col {
 main .container .row .col .box-contatti {
   width: 100%;
   min-height: 150px;
-  color: aliceblue;
+  background-color: red;
 }
 
 
