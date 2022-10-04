@@ -50,9 +50,10 @@
 */
 
 /********************  HEADER  ********************/
+
 header {
   color: #fff;
-  min-height: 45px;
+  height: 90px;
   background-color: #2C3E50;
 }
 
@@ -62,7 +63,7 @@ header {
 
 /********************  JUMBOTRON  ********************/
 .jumbotron {
-  min-height: 210px;
+  height: 490px;
   background-color: #1ABC9C;
 }
 
@@ -93,8 +94,39 @@ main .container .row .col .box-contatti {
 
 
 /********************  FOOTER  ********************/
+
 footer {
   color: #fff;
-  min-height: 40px;
+}
+
+footer h4 {
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+footer .footer_top {
+  height: 230px;
+  background-color: #3A546D;
+}
+
+.footer_top i {
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  text-align: center;
+  margin: 0 10px;
+}
+
+footer .footer_bottom {
+  font-size: .8rem;
+  height: 110px;
   background-color: #2C3E50;
+}
+
+#colored_green {
+  font-weight: 600;
+  color: #308171;
 }

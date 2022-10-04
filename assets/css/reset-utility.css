@@ -1,10 +1,10 @@
 /******************************  RESET GENERALI  ******************************/
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 
 
@@ -77,46 +77,3 @@ a {
 
 
 /******************************  COMPONENTS  ******************************/
-
-/**********  CONTAINER  **********/
-
-.my-container-100 {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.my-container-95 {
-  width: 95%;
-  margin: 0 auto;
-}
-
-.my-container-90 {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.my-container-85 {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.my-container-80 {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.m-bottom {
-  margin-bottom: 35px;
-}
-
-
-/**********  BUTTON  **********/
-
-.btn {
-  border: none;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-}
