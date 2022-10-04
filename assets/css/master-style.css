@@ -49,6 +49,26 @@
 ! /DA CANCELLARE TUTTO 
 */
 
+/********************  GENERALI  ********************/
+
+.row_star h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.star i {
+  margin: 0 10px;
+  font-size: 2rem;
+}
+
+.star .line {
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
 /********************  HEADER  ********************/
 
 header {
@@ -59,12 +79,30 @@ header {
 
 
 /********************  NAVBAR  ********************/
+a.navbar-brand_custom {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
 
+#navbarNav ul li a {
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link.custuom_color {
+  color: #fff;
+}
 
 /********************  JUMBOTRON  ********************/
 .jumbotron {
+  color: #fff;
   height: 490px;
   background-color: #1ABC9C;
+}
+
+.jumbotron .container .row .col img {
+  width: 250px;
 }
 
 
@@ -93,8 +131,30 @@ main .container .row .col .box-contatti {
 }
 
 
+#portfolio {
+  padding: 40px 0;
+}
+
+#portfolio .star .line {
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  vertical-align: middle;
+  background-color: #000;
+}
+
+#portfolio .row_star h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+
+
+
+
 /********************  FOOTER  ********************/
 
+/*  todo Footer generale  */
 footer {
   color: #fff;
 }
@@ -104,8 +164,10 @@ footer h4 {
   margin-bottom: 1.25rem;
 }
 
+/*  todo Footer TOP  */
+
 footer .footer_top {
-  height: 230px;
+  /* height: 230px; */
   background-color: #3A546D;
 }
 
@@ -119,6 +181,8 @@ footer .footer_top {
   text-align: center;
   margin: 0 10px;
 }
+
+/*  todo Footer BOTTOM  */
 
 footer .footer_bottom {
   font-size: .8rem;

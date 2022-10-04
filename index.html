@@ -23,17 +23,130 @@
     <!-- ! HEADER -->
     <header>
 
+      <!-- * NAVBAR BOOTSTRAP EDIT -->
+      <div class="container h-100 d-flex align-items-center">
+        <nav class="navbar navbar-expand-lg w-100">
+          <div class="container-fluid">
+            <a class="navbar-brand navbar-brand_custom" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-uppercase custuom_color"
+                    aria-current="page"
+                    href="#">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-uppercase custuom_color"
+                    aria-current="page"
+                    href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-uppercase custuom_color"
+                    aria-current="page"
+                    href="#">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- * /NAVBAR BOOTSTRAP EDIT -->
+
     </header>
     <!-- ! /HEADER -->
 
     <!-- ! JUMBOTRON -->
     <div class="jumbotron">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
 
+            <img class="pt-2 mb-4" src="assets/img/avatar.svg" alt="avatar">
+            <div class="row_star w-100">
+              <h2 class="text-uppercase mb-4">Start Bootstrap</h2>
+
+              <div class="star d-flex align-items-center justify-content-center
+                mb-4">
+                <div class="line"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line"></div>
+              </div>
+
+              <h4 class="text-uppercase">graphic artist - web designer -
+                illustrator</h4>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
     <!-- ! /JUMBOTRON -->
 
     <!-- ! MAIN -->
     <main>
+
+      <!-- * SECTION PORTFOLIO -->
+      <section id="portfolio">
+
+        <div class="container">
+          <div class="row row_star">
+            <h2 class="text-uppercase mb-4 text-center">Portfolio</h2>
+            <div class="star d-flex align-items-center justify-content-center
+              mb-4">
+              <div class="line"></div>
+              <i class="fa-solid fa-star"></i>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container cards">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col">
+              <img class="rounded mb-4" src="assets/img/cabin.png" alt="cabin">
+            </div>
+            <div class="col">
+              <img class="rounded mb-4" src="assets/img/cake.png" alt="cake">
+            </div>
+            <div class="col">
+              <img class="rounded mb-4" src="assets/img/circus.png"
+                alt="circus">
+            </div>
+            <div class="col">
+              <img class="rounded mb-4" src="assets/img/game.png" alt="game">
+            </div>
+            <div class="col">
+              <img class="rounded mb-4" src="assets/img/safe.png" alt="safe">
+            </div>
+            <div class="col">
+              <img class="rounded mb-4" src="assets/img/submarine.png"
+                alt="submarine">
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- * /SECTION PORTFOLIO -->
+
+      <!-- * SECTION ABOUT -->
+      <section id="about">
+
+      </section>
+      <!-- * /SECTION ABOUT -->
+
+      <!-- * SECTION CONTACT ME -->
+      <section id="contact_me">
+
+      </section>
+      <!-- * /SECTION CONTACT ME -->
 
     </main>
     <!-- ! /MAIN -->
@@ -44,11 +157,10 @@
       <!-- * Footer top -->
       <div class="footer_top d-flex align-items-center justify-content-center">
         <div class="container">
-          <div class="row">
-
+          <div class="row-cols-sm-1 row-cols-md-4 row-cols-lg-4
+            justify-content-center">
             <!-- ? COLONNA SINISTRA -->
-            <div class="col d-flex align-items-center
-              justify-content-center f-column">
+            <div class="col text-center">
               <h4 class="text-uppercase ">Location</h4>
               <span>2215 John Daniel Drive Clark, MO</span>
               <span>54243</span>
@@ -56,8 +168,7 @@
             <!-- ? /COLONNA SINISTRA -->
 
             <!-- ? COLONNA CENTRALE -->
-            <div class="col d-flex align-items-center
-              justify-content-center f-column">
+            <div class="col text-center">
               <h4 class="text-uppercase ">Around the web</h4>
               <div class="social">
                 <i class="fa-brands fa-facebook-f"></i>
@@ -69,8 +180,7 @@
             <!-- ? /COLONNA CENTRALE -->
 
             <!-- ? COLONNA DESTRA -->
-            <div class="col d-flex align-items-center
-              justify-content-center f-column">
+            <div class="col text-center">
               <h4 class="text-uppercase ">About Freelancer</h4>
               <span>Freelance is a free to use, open source</span>
               <span>Bootstrap theme created by <span id="colored_green">Start
