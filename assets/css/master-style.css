@@ -94,6 +94,12 @@ a.navbar-brand_custom {
   color: #fff;
 }
 
+/*  ?hover a  */
+
+#navbarNav li:hover a {
+  color: #308171;
+}
+
 /********************  JUMBOTRON  ********************/
 .jumbotron {
   color: #fff;
@@ -108,28 +114,7 @@ a.navbar-brand_custom {
 
 /********************  MAIN  ********************/
 
-main .container-md .row .test {
-  min-height: 150px;
-}
-
-main .container-fluid .row.test {
-  min-height: 150px;
-}
-
-[class^=col-] {
-  min-height: 250px;
-}
-
-main .container .row .col {
-  min-height: 150px;
-}
-
-main .container .row .col .box-contatti {
-  width: 100%;
-  min-height: 150px;
-  background-color: red;
-}
-
+/*  todo SECTION PORTFOLIO  */
 
 #portfolio {
   padding: 40px 0;
@@ -144,12 +129,86 @@ main .container .row .col .box-contatti {
 }
 
 #portfolio .row_star h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
+/*  todo SECTION ABOUT  */
 
+#about {
+  color: #fff;
+  background-color: #1ABC9C;
+  padding: 40px 0;
+}
 
+#about .row_star i {
+  color: #fff;
+}
+
+#about .star .line {
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+#about .row_star h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.custom_container_60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#about button i {
+  margin-right: 10px;
+}
+
+/*  todo SECTION CONTAC ME  */
+
+#contact_me {
+  padding: 40px 0;
+}
+
+#contact_me .row_star i {
+  color: #000;
+}
+
+#contact_me .star .line {
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  vertical-align: middle;
+  background-color: #000;
+}
+
+.form-label_custom {
+  font-weight: 600;
+}
+
+.form-control_custom {
+  border-bottom: 2px solid #ced4da;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+.btn-primary_custom {
+  background-color: #1ABC9C;
+  border: 1px solid #1ABC9C;
+}
+
+.btn:first-child:hover,
+:not(.btn-check)+.btn.btn-primary_custom:hover {
+  background-color: #159c81;
+  border: 1px solid #159c81;
+
+}
 
 
 /********************  FOOTER  ********************/
